@@ -36,14 +36,8 @@ pip-wheel-metadata/
 # Logs
 *.log
 
-# Data and outputs (ignore large generated artifacts)
-outputs/analysis.db
-outputs/*.db
-outputs/*.sqlite*
-outputs/*.parquet
-outputs/*.pkl
-outputs/*.csv
-outputs/figures/
+# Data and outputs: keep outputs tracked in repo
+# (outputs/ intentionally not ignored so results and figures are versioned)
 
 # Other
 *.pyc
