@@ -1,0 +1,52 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build / distribution
+dist/
+build/
+*.egg-info/
+
+# Wheels
+pip-wheel-metadata/
+*.whl
+
+# Logs
+*.log
+
+# Data and outputs (ignore large generated artifacts)
+outputs/analysis.db
+outputs/*.db
+outputs/*.sqlite*
+outputs/*.parquet
+outputs/*.pkl
+outputs/*.csv
+outputs/figures/
+
+# Other
+*.pyc
+
+# Note: this won't remove files already tracked by git. To stop tracking an existing file, run:
+# git rm --cached <file>
