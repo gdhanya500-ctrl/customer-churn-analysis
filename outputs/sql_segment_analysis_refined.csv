@@ -1,0 +1,4 @@
+segment_label,customers,avg_monthly_charges,avg_pred_churn,actual_churn_rate
+At Risk,2803,67.25,0.6437,0.5951
+Dormant,1749,61.43,0.2365,0.0995
+Loyal,2491,64.3,0.0639,0.0108
